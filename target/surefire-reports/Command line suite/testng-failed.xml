@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Com.ZomatoTest.TestCase1">
+        <methods>
+          <include name="searchProduct"/>
+        </methods>
+      </class> <!-- Com.ZomatoTest.TestCase1 -->
+      <class name="Com.ZomatoTest.TestCase2">
+        <methods>
+          <include name="OpenBroweser"/>
+        </methods>
+      </class> <!-- Com.ZomatoTest.TestCase2 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

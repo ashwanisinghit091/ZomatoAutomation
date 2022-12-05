@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="Food" value="Biryani"/>
+  <listeners>
+    <listener class-name="Listeners.Listeners"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="Com.ZomatoTest.TestCase1">
+        <methods>
+          <include name="searchProduct" invocation-numbers="0"/>
+          <include name="OpenBroweser"/>
+        </methods>
+      </class> <!-- Com.ZomatoTest.TestCase1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

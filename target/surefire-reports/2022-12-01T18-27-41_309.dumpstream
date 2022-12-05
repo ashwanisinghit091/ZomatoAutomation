@@ -1,0 +1,5 @@
+# Created at 2022-12-01T18:27:42.247
+Boot Manifest-JAR contains absolute paths in classpath 'D:\workspace100\Zomato\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
